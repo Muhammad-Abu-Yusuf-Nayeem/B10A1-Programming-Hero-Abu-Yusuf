@@ -236,3 +236,50 @@ iframe {
   font-weight: bolder;
   font-size: 24px;
 }
+.i-need-support {
+  padding: 64px 48px;
+  border: #fff;
+  border-radius: 16px;
+  background: url(assets/handshake.jpg) no-repeat center center/cover,
+    rgba(182, 182, 182, 0.24);
+}
+
+.i-need-support > .container > .header-title {
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.i-need-support .main-para {
+  padding: 0 219px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.submit {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  width: 684px;
+  text-align: center;
+}
+.submit input {
+  width: 548px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+  border: #fff;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+.submit button {
+  width: auto;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border-radius: 8px;
+  border: #fff;
+}
+.sub {
+  /* height: 57px; */
+}
