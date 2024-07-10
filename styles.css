@@ -53,6 +53,7 @@
   margin: 0 73px;
 }
 .btn-banner {
+  margin-top: 32px;
   color: white;
   border-radius: 8px;
   background-color: #0d1321;
@@ -62,6 +63,10 @@
   font-size: 20px;
 }
 
+.btn-banner a {
+  text-decoration: none;
+  color: #cacaca;
+}
 /* web-development */
 .web-development,
 .My-Inspiration,
@@ -282,4 +287,39 @@ iframe {
 }
 .sub {
   /* height: 57px; */
+}
+footer {
+  background-color: #f9f9f9;
+  display: flex;
+  height: 36px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 150px;
+  margin-top: 80px;
+  text-align: left;
+  border-top: 1px solid #eaeaea;
+}
+
+footer p.copy-right {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  display: inline;
+}
+
+footer ul {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer ul li.link {
+  display: inline-block;
+  margin: 0 10px;
+}
+.link img {
+  width: 36px;
+  height: 36px;
 }
