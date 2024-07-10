@@ -67,7 +67,7 @@
 .My-Inspiration,
 .My-Current-Target {
   margin: 74px 152px 45px 148px;
-  background-color: rgba(13, 19, 33, 0.06);
+  background-color: rgba(13, 19, 33, 0.02);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,13 +165,74 @@
 iframe {
   border-radius: 10px;
 }
-.skills {
-  border: 1px solid;
-  margin: 74px 152px 45px 148px;
-  background-color: rgba(13, 19, 33, 0.06);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 
+.My-Current-Target {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: rgba(252, 252, 252, 0.02);
+}
+.skills {
+  border: 1px solid white;
+  margin: 48px 152px 45px 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  gap: 24px;
+}
+.html {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.html a {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.css {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.js {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.skill-header {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.skill-para {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.My-Next-Target {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.technology {
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  margin: 24px 150px;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technology img {
+  width: 95px;
+  margin-right: 20px;
+}
+
+.tech-cont {
+  width: auto;
+  text-align: left;
+}
+
+.tech-cont > .skill-header {
+  font-weight: bolder;
+  font-size: 24px;
 }
