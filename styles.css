@@ -4,7 +4,10 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+p,
+.reg-para {
+  text-align: justify;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -209,6 +212,7 @@ iframe {
 .skill-para {
   font-size: 16px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .My-Next-Target {
